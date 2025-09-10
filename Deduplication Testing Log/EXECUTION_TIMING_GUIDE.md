@@ -119,6 +119,13 @@ if timestamps:
         print('❌ 超出處理窗口')
 "
 ```
+## **產出檔案說明**
+| 檔案名稱 | 大小 | 用途 |
+|----------|----------|----------|
+| test_logs_basic_dedup_full.log | 513KB | 基礎去重測試 |
+| test_logs_concurrent_processor1_full.log | 511KB | 並發去重測試 |
+| test_logs_high_frequency_dedup_full.log | 5.6MB | 高頻重複測試 |
+| test_logs_ttl_boundary_batch1.log | 53KB | TTL 邊界測試 |
 
 ## 📊 **不同時機執行的影響**
 
